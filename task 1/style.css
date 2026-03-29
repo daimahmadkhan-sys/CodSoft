@@ -59,6 +59,7 @@ body {
 .navbar .links a:hover {
   text-decoration: underline 1px;
   color: rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
 
 .hero {
@@ -117,10 +118,12 @@ body {
 .portfolio-btn:hover {
   background-color: transparent;
   border: 2px solid rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
 .portfolio-btn:hover,
 .portfolio-btn:hover i {
   color: rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
 .hire-btn {
   background-color: transparent;
@@ -128,11 +131,11 @@ body {
 }
 
 .hire-btn:hover {
-  border: 2px solid rgb(225, 151, 12);
-}
-.hire-btn:hover {
   color: rgb(225, 151, 12);
+  border: 2px solid rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
+
 .hero-part2 {
   padding-right: 9rem;
 }
@@ -197,15 +200,18 @@ body {
 
 .card:hover {
   background-color: rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
 .card:hover p,
 .card:hover h3 {
   color: white;
+  transition: all ease 0.3s;
 }
 .card:hover i {
   background-color: white;
   color: rgb(225, 151, 12);
   scale: 0.95;
+  transition: all ease 0.3s;
 }
 #about {
   padding: 0rem 6rem;
@@ -255,9 +261,11 @@ body {
   background-color: white;
   border: 2px solid rgb(225, 151, 12);
   color: rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
 #about a:hover i {
   color: rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
 #portfolio {
   padding: 4rem 6rem;
@@ -337,6 +345,7 @@ body {
 .price:hover span,
 .price:hover p {
   color: rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
 
 .price ul {
@@ -402,11 +411,13 @@ body {
 }
 .info p:hover {
   color: rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
 .info i:hover {
   border: 2px solid rgb(225, 151, 12);
   background-color: white;
   color: rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
 .contact-part2 {
   width: 50%;
@@ -436,6 +447,7 @@ form button:hover {
   background-color: white;
   color: rgb(225, 151, 12);
   border: 2px solid rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
 footer {
   display: flex;
@@ -466,4 +478,5 @@ footer .social i {
 
 .social i:hover {
   color: rgb(225, 151, 12);
+  transition: all ease 0.3s;
 }
